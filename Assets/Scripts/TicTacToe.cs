@@ -148,13 +148,13 @@ public class TicTacToe : MonoBehaviour
         return false;
     }
 
-    void EndGame(string message)
+    private void EndGame(string message)
     {
         Debug.Log(message);
         Invoke("ResetBoard", 2.0f);
     }
 
-    void ResetBoard()
+    private void ResetBoard()
     {
         for (int i = 0; i < _board.Length; i++)
         {
