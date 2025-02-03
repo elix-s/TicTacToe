@@ -1,1 +1,1 @@
-# TicTacToe
+TicTacToe game with MinMax algorithm.
